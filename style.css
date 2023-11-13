@@ -1,0 +1,126 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu';
+  }
+  h3 {
+    margin: 0;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 19%;
+    height: 100px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .logo {
+    width: 58px;
+    height: 58px;
+  }
+  
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #202020;
+  }
+  
+  .nav-container {
+    margin: 0;
+  }
+  
+  .list-container {
+    margin-top: 28px;
+    display: flex;
+    list-style: none;
+    gap: 38px;
+    font-style: normal;
+    font-weight: 700;
+    color: #202020;
+  }
+  .list-container li {
+    color: #202020;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .list-container a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .nav-button {
+    border: none;
+    background: #5528ff;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    width: 100px;
+    height: 24px;
+    padding-bottom: 4.5px;
+  }
+  .main-block{
+    margin: 5% 10%;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+  }
+  .main-block h2{
+    color: #202020;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 57px;
+    font-weight: 700;
+    gap: 35px;
+
+  }
+  .main-block p{
+    color: #4F4F4F;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 160.86%;
+    max-width: 741px;
+    margin-bottom: 70px;
+    
+  }
+  
+  .main-block button{
+   border-radius: 10px;
+   background: #5528FF;
+   color: #FFF;
+   font-family: Ubuntu;
+   font-size: 24px;
+   font-weight: 400;
+   padding: 16px 58px 11px 58px;
+   
+  }
+
+  /* footer */
+  .footer-container {
+    padding: 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7f7f7;
+    height: 100px;
+  }
+  .icons-container {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+  }
